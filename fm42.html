@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+       label{
+        width: 100px;
+        display: inline-block;
+        padding-top: 5px;
+       }
+       #div1{
+        border: 1px solid black;
+        padding: 10px;
+        width: 400px;
+       }
+       .re::after{
+        content: "*";
+        color: red;
+        font-size: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div id="div1">
+    <fieldset>
+        <legend>Customer</legend>
+    <form border="1">
+        <label for="txt" class="re">Name:</label>
+        <input type="text" required>
+        <br>
+        <label for="email" class="re">E-mail:</label>
+        <input type="email" required>
+        <br>
+        <label for="number">Invesment:</label>
+        <input type="number">
+        <br>
+        <label for="date" class="re">Date joined:</label>
+        <input type="date" required>
+        <br>
+        <label for="chekbox">Active:</label>
+        <input type="checkbox">
+    </form>
+</fieldset>
+<br>
+<button>OK</button>
+<button>Cancel</button>
+</div>
+    
+</body>
+</html>

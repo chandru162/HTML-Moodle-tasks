@@ -1,0 +1,83 @@
+table{
+   background-color: blue;
+   font-size: 24px;
+   font-family: 'Times New Roman', Times, serif;
+
+
+
+
+}
+form{
+   background-color: rgb(227, 186, 233);
+   font-size: 24px;
+   font-family: 'Times New Roman', Times, serif;
+   border-color: black;
+   border-width: 5px;
+   border-style: dotted;
+}
+body{
+   background-color: rgb(160, 245, 238);
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+.submit{
+   background-color: rgb(129, 235, 42);
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+.reset{
+   background-color: rgb(238, 14, 14);
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 30px ;
+
+}
+.booking{
+   background-color: rgb(129,235,42);
+   font-size: 30px;
+   font-style: normal;
+   
+}
+
+.header{
+   border-style:ridge;
+   border-color: rgb(0, 0, 0);
+   border-width: 5px;
+    
+}
+.list1{
+   font: size 100px;
+ 
+   display: inline-flex;
+   
+  
+}
+#home{
+   
+      background-color: rgb(0, 89, 255);
+      font-size: 30px;
+      font-style: normal;
+      margin-left:130px ;
+}
+#about{
+  
+   background-color: rgb(0, 89, 255);
+      font-size: 30px;
+      font-style: normal;
+      margin-left:200px ;
+}
+#next_page{
+   background-color: rgb(0, 89, 255);
+      font-size: 30px;
+      font-style: normal;
+      margin-left:200px ;
+
+}
+#help{
+   background-color: rgb(0, 89, 255);
+      font-size: 30px;
+      font-style: normal;
+      margin-left:200px ;
+}
